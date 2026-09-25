@@ -1,0 +1,84 @@
+body {
+  background-color: #473f71;
+  font-family: Tahoma, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px 0;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* <--- DODAJ TĘ LINIJKĘ */
+  min-height: 100vh;
+}
+#kontener {
+  background-color: #e0e0e0;
+  width: 800px;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 4px outset #ffffff;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid #b0b0b0;
+  margin: 15px 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: black;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: center;
+  color: #555;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
